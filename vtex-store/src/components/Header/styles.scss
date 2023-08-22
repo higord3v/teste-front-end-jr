@@ -1,0 +1,76 @@
+.header-container {
+  padding: 0 160px;
+  .header {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.25);
+
+    &__logo {
+      width: 139px;
+      height: 50.64px;
+    }
+
+    &__top {
+      padding: 0 267px;
+      border-bottom: 1px solid #f0f0f0;
+      & > div {
+        gap: 10px;
+      }
+
+      & span {
+        color: #9f9f9f;
+      }
+    }
+
+    &__main {
+      border-bottom: 1px solid #f0f0f0;
+      padding: 11px 57px;
+      & input {
+        width: 657px;
+        height: 48px;
+        border-radius: 10px;
+        background-color: #f6f5f2;
+        border: none;
+        outline: none;
+        padding: 0 20px;
+        & ::placeholder {
+          color: #9f9f9f;
+          font-weight: 400;
+        }
+      }
+    }
+
+    &__menu {
+      width: 210px;
+
+      & img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    &__input {
+      display: flex;
+
+      & img {
+        width: 28px;
+        height: 28px;
+        margin: 10px 0 0 -40px;
+      }
+    }
+
+    &__categories {
+      padding: 11px 50px;
+      color: #9f9f9f;
+      font-weight: 600;
+
+      & :last-child {
+        gap: 10px;
+      }
+
+      & span {
+        cursor: pointer;
+      }
+    }
+  }
+}
