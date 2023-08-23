@@ -42,7 +42,10 @@ export const CategoriesCards = () => {
     <section>
       <div className="categories flex justify-between">
         {categories.map((category) => (
-          <div className="categories__item flex-column align-center">
+          <div
+            key={category.name}
+            className="categories__item flex-column align-center"
+          >
             <div
               className="categories__card flex-column align-center"
               key={category.name}
