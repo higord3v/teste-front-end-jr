@@ -3,7 +3,6 @@ import "./styles.scss";
 import axios from "axios";
 import previous from "../../assets/previous.svg";
 import next from "../../assets/next.svg";
-import close from "../../assets/close.svg";
 import { formatter } from "../../util/formatter";
 import { IProduct } from "../../interfaces/IProduct";
 import { prouctCategories } from "../../data/productCategories";

@@ -1,0 +1,95 @@
+.related-section {
+  padding: 0 77px 0 86px;
+  &__h2 {
+    color: #f71963;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 39px 151px 0;
+    :before,
+    :after {
+      content: "";
+      flex: 1 1;
+      border-bottom: 1px solid #dedede;
+      margin: auto;
+    }
+    :before {
+      margin-right: 34px;
+    }
+    :after {
+      margin-left: 34px;
+    }
+  }
+
+  &__p {
+    color: #3f3f40;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__card {
+    max-width: 574px;
+    height: 350px;
+  }
+
+  &__img {
+    max-width: 574px;
+    max-height: 350px;
+    width: 100%;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  &__title {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__subtitle {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__title,
+  &__subtitle {
+    color: #fff;
+  }
+  &__content {
+    position: relative;
+    bottom: 290px;
+    margin-left: 40px;
+    margin-top: 100px;
+  }
+
+  &__overlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 85.04%);
+    width: 100%;
+    max-height: 322px;
+    opacity: 0.8;
+    position: relative;
+    width: 574px;
+    height: 350px;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  &__button {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+  }
+}
