@@ -4,6 +4,7 @@ import { CategoriesCards } from "./components/CategoriesCards";
 import { Carousel } from "./components/Carousel";
 import { Partners } from "./components/Partners";
 import { Related } from "./components/Related";
+import { Brands } from "./components/Brands";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Carousel />
       <Partners />
       <Related />
+      <Brands />
     </>
   );
 }
