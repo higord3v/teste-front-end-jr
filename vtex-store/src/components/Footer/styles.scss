@@ -1,0 +1,51 @@
+.footer {
+  background: #2a2a2a;
+  color: #fff;
+
+  &__top {
+    padding: 33px 96px;
+    gap: 93px;
+
+    & p {
+      color: #fff;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 32px; /* 266.667% */
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__media {
+    margin-top: 30px;
+  }
+
+  &__links {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__about-us,
+  &__information,
+  &__payment {
+    display: flex;
+    flex-direction: column;
+    width: 146px;
+
+    & h2 {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__about-us {
+    justify-content: space-between;
+  }
+
+  &__bottom {
+    border-top: 1px solid #fff;
+    padding: 22px 93px;
+  }
+}

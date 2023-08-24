@@ -5,6 +5,7 @@ import { Carousel } from "./components/Carousel";
 import { Partners } from "./components/Partners";
 import { Related } from "./components/Related";
 import { Brands } from "./components/Brands";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Partners />
       <Related />
       <Brands />
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,46 @@
+.newsletter {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: auto;
+  padding: 40px 29px;
+
+  &__title,
+  &__subtitle {
+    color: #3f3f40;
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px; /* 144.444% */
+    text-transform: uppercase;
+    width: 310px;
+  }
+
+  &__subtitle {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+
+  & > p {
+    color: #3f3f40;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px; /* 158.333% */
+    margin-bottom: 31px;
+  }
+
+  &__form {
+    gap: 9px;
+  }
+
+  &__input {
+    border-radius: 4px;
+    padding: 13px 25px;
+  }
+}
