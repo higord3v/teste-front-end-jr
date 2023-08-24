@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 export const Modal: React.FC<{
   modal: boolean;
   setModal: React.Dispatch<React.SetStateAction<boolean>>;
-  selectedItem: IProduct;
+  selectedItem: IProduct | null;
 }> = ({ modal, setModal, selectedItem }) => {
   const [itemsCount, setItemsCount] = useState(1);
 
